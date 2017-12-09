@@ -89,7 +89,7 @@ font-weight: normal;
   border:#F78E69 solid 10px;
   border-left:0;
   border-right: 0;
-  padding-bottom:50px;
+  padding-bottom: 0px;
   padding-left: 10%;
 }
 /*row de fotos*/
@@ -137,3 +137,8 @@ span {
 }
 }
 
+/*Estilos Footer*/
+	footer {
+	text-align: right;
+	padding-right: 3%;
+	}
