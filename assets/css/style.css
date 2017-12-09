@@ -1,19 +1,93 @@
+/*reset*/
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: Raleway;
+}
+
 .body{
 	font-family: Raleway, sans-serif;
 }
+
+/*1a imagen panda grayscale*/
 .responsive-img{
+	padding-top: 3%;
 	width: 100%;
 	filter: grayscale(); /*filtro grayscale*/
 }
 
+/* Estilos header / footer*/
 header, footer{
 margin-bottom: 0!important;
 }
 
+/* Estilos clase general*/
 .pandas{
+	background-color: #ff8a65;
+	height: 1000px;
+}
+
+/* Estilos todos los textos*/
+h1, h2, h3, h5, h6 {
+	color: white;
+	font-weight: bolder;
+}
+
+h4{
+	color: white;
+	font-size: 20px;
+	font-weight: normal;
+}
+
+p{
+color: white;
+font-weight: normal;
+}
+/* Sección Texto green-pink*/
+.container_green{
+	background-color: #ABE188;
+	border-left: 0;
+  border-right: 0;
+  border:10px #F78E69 solid;
+}
+
+/* Contenedor chico del texto*/
+.cont_pink{
 	background-color: #ff8a65;
 }
 
-h1, h2, h3, h4, h5, h6{
-	color: white;
+.about_title {
+	text-align: center;
+	font-size: 23px;
+	padding-top: 30px;
+	padding-bottom: 15px;
+}
+
+.pink_text {
+	font-size: 18px;
+	line-height: 28px;
+	text-align: center;
+	padding-bottom: 30px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+#bigpanda {
+	padding-left: 15%;
+	padding-top: 5%;
+	padding-bottom: 5%;
+	padding-right: 15%;
+}
+
+/* Imagen2 cover grayscale*/
+
+.image2 {
+	background-image: url(../img/dos.jpg);
+	background-repeat: no-repeat;
+	filter: grayscale(100%);/*otra forma del filtro*/
+	background-size: cover;
+	background-position: center;
+	height: 600px;
+
 }
