@@ -12,7 +12,7 @@
 
 /*1a imagen panda grayscale*/
 .responsive-img{
-	padding-top: 3%;
+	padding-top: 0%;
 	width: 100%;
 	filter: grayscale(); /*filtro grayscale*/
 }
@@ -50,9 +50,10 @@ font-weight: normal;
 	border-left: 0;
   border-right: 0;
   border:10px #F78E69 solid;
+  padding-top: 3%;
 }
 
-/* Contenedor chico del texto*/
+/* Contenedor chico del texto "About"*/
 .cont_pink{
 	background-color: #ff8a65;
 }
@@ -80,14 +81,59 @@ font-weight: normal;
 	padding-right: 15%;
 }
 
-/* Imagen2 cover grayscale*/
-
-.image2 {
-	background-image: url(../img/dos.jpg);
-	background-repeat: no-repeat;
-	filter: grayscale(100%);/*otra forma del filtro*/
-	background-size: cover;
-	background-position: center;
-	height: 600px;
-
+/*Section 4 fotos chicas*/
+/*Estilo propios de las 4 fotos*/
+.photos_green {
+	width:100%;
+  background-color: #ABE188;
+  border:#F78E69 solid 10px;
+  border-left:0;
+  border-right: 0;
+  padding-bottom:50px;
+  padding-left: 10%;
 }
+/*row de fotos*/
+.little_photos {
+	background-color: #ABE188;
+  margin-bottom: 0;
+  margin-bottom: 0;
+  padding-top: 20px;
+  padding-bottom: 70px;
+}
+
+/*Texto Pictures*/
+.pictures {
+	text-align: center;
+  color:#fff;
+  font-size: 55px;
+  font-weight: 600;
+  padding-top: 80px;
+  padding-right: 5%;
+}
+
+.pic1,.pic2,.pic3,.pic4 {
+	border:10px white solid;
+}
+
+span {
+	padding: 10px;
+}
+
+/*media query (responsive)*/
+@media (max-width: 1160px) {
+
+.pic1,.pic2,.pic3,.pic4 {
+	width: 100%;
+}
+
+/*Contenedor verde de fotos*/
+.photos_green {
+  padding-left: 0%;
+  padding-right: 10%;
+}
+
+.pictures{
+  padding-left:15%;
+}
+}
+
